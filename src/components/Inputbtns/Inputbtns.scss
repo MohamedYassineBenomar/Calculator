@@ -11,7 +11,46 @@
                 height: 100%;
                 width: 100%;
                 font-size:25px;
+                background-color: #4d4d4d;     
+                color: white;
+                &:hover{
+                    background-color: #eeeeee;
+                    color: black;
+                }
+                &:active{
+                    background-color: white;
+                    color: black;
+                }
             }
+            #ac-btn{
+                background-color: rgb(172, 57, 57);
+                color: white;
+                &:hover{
+                    background-color: #eeeeee;
+                    color: black;
+                }
+                &:active{
+                    background-color: white;
+                    color: black;
+                }
+            }
+            #equal-btn{
+                background-color: rgb(0, 68, 102);
+                color: white;
+                &:hover{
+                    background-color: #eeeeee;
+                    color: black;
+                }
+                &:active{
+                    background-color: white;
+                    color: black;
+                }
+            }
+            .operations-btns{
+                background-color: rgb(102, 102, 102);
+                color: white;
+            }
+            
         }
     }
 }
