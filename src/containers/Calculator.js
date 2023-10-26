@@ -10,8 +10,8 @@ function Calculator() {
         <Displayer />
         <Inputbtns />
       </div>
-      <div id="creator">
-          mmmdsmdzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+      <div id="creator" style={{fontSize : '25px'}}>
+          Made by <strong>~ Myassine Dev ~</strong>
       </div>
     </div>
   )
