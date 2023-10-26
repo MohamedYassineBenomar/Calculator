@@ -26,7 +26,12 @@ function Inputbtns() {
                     completeop.textContent = buttonValue;
                 } else if(currentop.textContent === '0' && completeop.textContent !== ''){
                     completeop.textContent = completeop.textContent + buttonValue;
-                    currentop.textContent = buttonValue;
+                    if(buttonValue ==='.' && currentop.textContent === '0'){
+                        currentop.textContent = currentop.textContent + buttonValue;
+                    } else {
+                        currentop.textContent = buttonValue;
+                    }
+                    
                 } else {
                     if(currentop.textContent.length < 14){
                         completeop.textContent = completeop.textContent + buttonValue;
