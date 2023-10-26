@@ -10,6 +10,9 @@ function Calculator() {
         <Displayer />
         <Inputbtns />
       </div>
+      <div id="creator">
+          mmmdsmdzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+      </div>
     </div>
   )
 }

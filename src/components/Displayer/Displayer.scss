@@ -3,12 +3,11 @@
     width: 100%;
     background-color: black;
     flex: 1;
+    
     #display {
         height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        
+        width: 100%;   
+        overflow: hidden;
         #complete-operations {
             flex: 1;
             text-align: right;
